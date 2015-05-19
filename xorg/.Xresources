@@ -1,0 +1,50 @@
+URxvt.depth: 32
+URxvt.scrollBar: false
+
+URxvt.font: xft:Source\ Code\ Pro\ for\ Powerline:style=medium:pixelsize=13:antialias=true:hinting=true, \
+            xft:DejaVu\ Sans\ Mono\ for\ Powerline:pixelsize=14:antialias=true:hinting=true
+
+URxvt.intensityStyles: false
+
+#define s_base00 #657b83
+#define s_base01 #586e75
+#define s_base02 #073642
+#define s_base03 #002b36
+#define s_base0  #839496
+#define s_base1  #93a1a1
+#define s_base2  #eee8d5
+#define s_base3  #fdf6e3
+
+URxvt.background: s_base03
+URxvt.foreground: s_base0
+URxvt.fadeColor: s_base03
+URxvt.cursorColor: s_base1
+URxvt.pointerColorBackground: s_base01
+URxvt.pointerColorForeground: s_base1
+
+#define s_yellow  #b58900
+#define s_orange  #cb4b16
+#define s_red     #dc322f
+#define s_magenta #d33682
+#define s_violet  #6c71c4
+#define s_blue    #268bd2
+#define s_cyan    #2aa198
+#define s_green   #859900
+
+URxvt.color0: s_base02
+URxvt.color1: s_red
+URxvt.color2: s_green
+URxvt.color3: s_yellow
+URxvt.color4: s_blue
+URxvt.color5: s_magenta
+URxvt.color6: s_cyan
+URxvt.color7: s_base2
+URxvt.color8: s_base03
+URxvt.color9: s_orange
+URxvt.color10: s_base01
+URxvt.color11: s_base00
+URxvt.color12: s_base0
+URxvt.color13: s_violet
+URxvt.color14: s_base1
+URxvt.color15: s_base3
+

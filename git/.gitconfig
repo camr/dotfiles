@@ -1,0 +1,9 @@
+[user]
+  name = "Cameron Rivers"
+  email = "cameron.rivers@gmail.com"
+[core]
+  excludesfile = ~/.gitignore_global
+[color]
+  ui = auto
+[push]
+  default = simple
