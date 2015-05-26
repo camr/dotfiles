@@ -124,6 +124,8 @@ NeoBundleLazy 'gre/play2vim', {'filetypes': ['play2-html', 'play2-routes', 'play
 NeoBundleLazy 'tpope/vim-markdown', {'filetypes': '.md'}
 NeoBundleLazy 'nelstrom/vim-markdown-folding'
 
+NeoBundle 'rust-lang/rust.vim'
+
 NeoBundle 'scrooloose/syntastic'
 
 "----------------------------------------------------------
@@ -338,8 +340,8 @@ let g:DeleteTrailingWhitespace = 0
 noremap <silent> <Leader>d<space> :DeleteTrailingWhitespace<CR>
 
 " Show important whitespace.
-set listchars=tab:\ \ ,trail:·,extends:>,precedes:.
-let &showbreak = '> '
+set listchars=tab:\ \ ,trail:·,extends:↷,precedes:↶
+let &showbreak = '↪ '
 set linebreak
 set list
 
