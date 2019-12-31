@@ -7,3 +7,14 @@
   ui = auto
 [push]
   default = simple
+[alias]
+  branches = branch -a
+  tags = tag
+  stashes = stash list
+  graph = log --graph -10 --branches --remotes --tags --format=format:'%Cgreen%h %Creset* %<(75,trunc)%s (%cN, %cr) %Cred%d' --date-order
+  precommit = diff --cached --diff-algorithm=minimal -w
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
