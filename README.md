@@ -1,4 +1,4 @@
 Dotfiles for various programs I use religiously. Stored using the
-[stow](http://git.local.ironclad.mobi/uncodin/socom-mw/merge_requests/81) program.
+[stow](https://www.gnu.org/software/stow/) program.
 
-[Using GNU Stow to manage your dotfiles](http://git.local.ironclad.mobi/uncodin/socom-mw/merge_requests/81)
+[Managing Dotfiles with Stow](https://venthur.de/2021-12-19-managing-dotfiles-with-stow.html)
